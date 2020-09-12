@@ -121,12 +121,6 @@
     <Resource Include="images\logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="NewFile1.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="NewFile2.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.7.2 %28x86 et x64%29</ProductName>
