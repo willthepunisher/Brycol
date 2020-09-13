@@ -10,6 +10,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="0.4*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="0.1*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.3*"/>
@@ -17,7 +18,7 @@
         </Grid.ColumnDefinitions>
 
         <Border Grid.Row="0" Grid.ColumnSpan="2" Background="LightGray"></Border>
-        <Image Grid.Row="0" Grid.ColumnSpan="2" Source="images/logo.png" HorizontalAlignment="Right" />
+        <Image Grid.Row="0" Grid.ColumnSpan="2" Source="/images/logo.png" HorizontalAlignment="Right" />
         <StackPanel Grid.Row="0" Grid.ColumnSpan="2">
             <WrapPanel Margin="0,0,0,20">
                 <TextBlock FontSize="30" FontWeight="Bold">Meubles et Appareils</TextBlock>
@@ -29,14 +30,22 @@
 
         </StackPanel>
        
-        <GroupBox Grid.Row="1" Grid.Column="0" Header="Type de pièce">
+        <GroupBox Grid.Row="1" Grid.Column="0" Grid.RowSpan="2" Header="Type de pièce">
             <ListBox>
                 <ListBoxItem>Chambre à coucher</ListBoxItem>
                 <ListBoxItem>Chambre de bain</ListBoxItem>
                 <ListBoxItem>Cuisine</ListBoxItem>
                 <ListBoxItem>Salle à manger</ListBoxItem>
             </ListBox>
-
         </GroupBox>
+
+        <GroupBox  Grid.Row="1" Grid.Column="1">
+            <ListView>
+                
+            </ListView>
+        </GroupBox>
+
+        
+        <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Right" Margin="0,0,20,0" Width="78">Ajouter</Button>
     </Grid>
 </Window>
