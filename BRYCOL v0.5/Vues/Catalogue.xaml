@@ -1,0 +1,42 @@
+﻿<Window x:Class="BRYCOL_v0._5.Catalogue"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BRYCOL_v0._5"
+        mc:Ignorable="d"
+        Title="Catalogue" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.4*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.3*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Row="0" Grid.ColumnSpan="2" Background="LightGray"></Border>
+        <Image Grid.Row="0" Grid.ColumnSpan="2" Source="images/logo.png" HorizontalAlignment="Right" />
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="2">
+            <WrapPanel Margin="0,0,0,20">
+                <TextBlock FontSize="30" FontWeight="Bold">Meubles et Appareils</TextBlock>
+            </WrapPanel>
+            <WrapPanel>
+                <TextBlock FontSize="20">Sélectionner un élément pour ajouter à votre pièce</TextBlock>
+            </WrapPanel>
+
+
+        </StackPanel>
+       
+        <GroupBox Grid.Row="1" Grid.Column="0" Header="Type de pièce">
+            <ListBox>
+                <ListBoxItem>Chambre à coucher</ListBoxItem>
+                <ListBoxItem>Chambre de bain</ListBoxItem>
+                <ListBoxItem>Cuisine</ListBoxItem>
+                <ListBoxItem>Salle à manger</ListBoxItem>
+            </ListBox>
+
+        </GroupBox>
+    </Grid>
+</Window>
