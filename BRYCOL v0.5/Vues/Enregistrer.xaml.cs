@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace BRYCOL_v0._5.Vues
+namespace BRYCOL_v0._5
 {
     /// <summary>
     /// Logique d'interaction pour Enregistrer.xaml

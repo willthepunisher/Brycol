@@ -36,3 +36,7 @@ C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.csproj.GenerateResource.cache
 C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.csproj.CoreCompileInputs.cache
 C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.exe
 C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.pdb
+C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\Catalogue.g.cs
+C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\Catalogue.baml
+C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\Enregistrer.g.cs
+C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\Enregistrer.baml

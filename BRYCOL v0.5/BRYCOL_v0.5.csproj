@@ -73,6 +73,9 @@
     <Compile Include="Vues\Catalogue.xaml.cs">
       <DependentUpon>Catalogue.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Vues\Enregistrer.xaml.cs">
+      <DependentUpon>Enregistrer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Vues\PlanTravail.xaml.cs">
       <DependentUpon>PlanTravail.xaml</DependentUpon>
     </Compile>
@@ -99,6 +102,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Vues\Enregistrer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Vues\PlanTravail.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
