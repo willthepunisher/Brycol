@@ -20,6 +20,18 @@
             <Rectangle Fill="Transparent" HorizontalAlignment="Left" Height="263" Stroke="Black" VerticalAlignment="Top"/>
         </Border>
 
+        <Image  Source="images/logo.png" Width="140"  Grid.Row="0" Grid.Column="1" Margin="421,0,10,0"/>
+
+        <TextBlock Margin="15,20,15,15" FontSize="30" Background="Transparent" Text="Nom du projet" Grid.Row="0" Grid.Column="0"></TextBlock>
+        <Button Margin="15,67,168,10" FontSize="20" Background="Transparent" Grid.Row="0" Grid.Column="0">Aide</Button>
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <Button Height="40"  FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Ajouter Meuble</Button>
+            <Button Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Modifier Meuble</Button>
+            <Button Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Supprimer Meuble</Button>
+            <Button Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Modifier Pièce</Button>
+            <Button Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Enregistrer</Button>
+        </StackPanel>
+
         <Border BorderThickness="1" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"
             CornerRadius="20,20,20,20" Margin="15,15,15,15" BorderBrush="Black" Background="White">
         </Border>
