@@ -52,7 +52,11 @@ namespace BRYCOL_v0._5 {
                 return;
             }
             _contentLoaded = true;
+<<<<<<< HEAD
             System.Uri resourceLocater = new System.Uri("/BRYCOL_v0.5;component/dimensionpiece.xaml", System.UriKind.Relative);
+=======
+            System.Uri resourceLocater = new System.Uri("/BRYCOL v0.5;component/dimensionpiece.xaml", System.UriKind.Relative);
+>>>>>>> 2e485ab644021dcd27474465706546b2aa2b491c
             
             #line 1 "..\..\DimensionPiece.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
