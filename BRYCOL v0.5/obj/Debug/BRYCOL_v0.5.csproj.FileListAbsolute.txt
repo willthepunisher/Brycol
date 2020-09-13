@@ -36,6 +36,12 @@ C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.csproj.GenerateResource.cache
 C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.csproj.CoreCompileInputs.cache
 C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.exe
 C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.pdb
+<<<<<<< HEAD
+C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\Catalogue.g.cs
+C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\Catalogue.baml
+C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\Enregistrer.g.cs
+C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\Enregistrer.baml
+=======
 C:\atelier\Brycol\BRYCOL v0.5\bin\Debug\BRYCOL_v0.5.exe.config
 C:\atelier\Brycol\BRYCOL v0.5\bin\Debug\BRYCOL_v0.5.exe
 C:\atelier\Brycol\BRYCOL v0.5\bin\Debug\BRYCOL_v0.5.pdb
@@ -57,6 +63,7 @@ C:\atelier\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.csproj.GenerateResource.cach
 C:\atelier\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.csproj.CoreCompileInputs.cache
 C:\atelier\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.exe
 C:\atelier\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.pdb
+<<<<<<< HEAD
 C:\atelier\Brycol\BRYCOL v0.5\obj\Debug\Vues\EcranLstChamBain.g.cs
 C:\atelier\Brycol\BRYCOL v0.5\obj\Debug\Vues\EcranLstCuisine.g.cs
 C:\atelier\Brycol\BRYCOL v0.5\obj\Debug\Vues\EcranLstSalleMan.g.cs
@@ -67,3 +74,6 @@ C:\atelier\Brycol\BRYCOL v0.5\obj\Debug\Vues\EcranLstCuisine.baml
 C:\atelier\Brycol\BRYCOL v0.5\obj\Debug\Vues\EcranLstSalleMan.baml
 C:\atelier\Brycol\BRYCOL v0.5\obj\Debug\Vues\EcranLstSalon.baml
 C:\atelier\Brycol\BRYCOL v0.5\obj\Debug\Vues\EcranLtsChamCou.baml
+=======
+>>>>>>> abaa026857db19d1177b961da747d74612639323
+>>>>>>> ebdee3610226701940426d55cf68f8781fda8b3a

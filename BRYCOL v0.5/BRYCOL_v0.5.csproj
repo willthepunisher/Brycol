@@ -73,6 +73,7 @@
     <Compile Include="Vues\Catalogue.xaml.cs">
       <DependentUpon>Catalogue.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Vues\EcranLstChamBain.xaml.cs">
       <DependentUpon>EcranLstChamBain.xaml</DependentUpon>
     </Compile>
@@ -87,6 +88,10 @@
     </Compile>
     <Compile Include="Vues\EcranLtsChamCou.xaml.cs">
       <DependentUpon>EcranLtsChamCou.xaml</DependentUpon>
+=======
+    <Compile Include="Vues\Enregistrer.xaml.cs">
+      <DependentUpon>Enregistrer.xaml</DependentUpon>
+>>>>>>> ebdee3610226701940426d55cf68f8781fda8b3a
     </Compile>
     <Compile Include="Vues\PlanTravail.xaml.cs">
       <DependentUpon>PlanTravail.xaml</DependentUpon>
@@ -114,6 +119,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+<<<<<<< HEAD
     <Page Include="Vues\EcranLstChamBain.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -131,6 +137,9 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Vues\EcranLtsChamCou.xaml">
+=======
+    <Page Include="Vues\Enregistrer.xaml">
+>>>>>>> ebdee3610226701940426d55cf68f8781fda8b3a
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
