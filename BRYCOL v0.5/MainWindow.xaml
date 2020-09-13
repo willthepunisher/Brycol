@@ -8,10 +8,7 @@
         Title="MainWindow" Height="600" Width="800">
 
     <Window.Resources>
-        <!--<ImageBrush x:Key="facebook_icon" ImageSource="images/logo.png" Stretch="None"/>-->
-
-
-
+        <ImageBrush x:Key="facebook_icon" ImageSource="images/logo.png" Stretch="None"/>
         <SolidColorBrush x:Key="Button.MouseOver.Background" Color="Transparent"/>
         <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#053359"/>
         <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>

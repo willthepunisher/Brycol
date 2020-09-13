@@ -27,7 +27,7 @@ namespace BRYCOL_v0._5
         {
             InitializeComponent();
         }
-        
+
         #region canvasTest
         //private Point startPoint;
         //private Rectangle rect;
@@ -65,7 +65,7 @@ namespace BRYCOL_v0._5
         //    Canvas.SetLeft(rect, x);
         //    Canvas.SetTop(rect, y);
         //}
-       
+
 
         //private void Canvas_MouseUp(object sender, MouseButtonEventArgs e)
         //{
@@ -80,7 +80,7 @@ namespace BRYCOL_v0._5
                 DimensionPiece popup = new DimensionPiece();
                 popup.ShowDialog();
             }
-            else if(choixMenu == 2)
+            else if (choixMenu == 2)
             {
                 MessageBox.Show("Option de téléversement à venir!");
             }
@@ -90,7 +90,7 @@ namespace BRYCOL_v0._5
                 //DimensionPiece popup = new DimensionPiece();
                 //popup.ShowDialog();
             }
-           
+
 
 
         }
@@ -99,14 +99,14 @@ namespace BRYCOL_v0._5
         {
             choixMenu = 1;
             btnChoixMenu.BorderBrush = Brushes.DarkBlue;
-            btnChoixMenu2.BorderBrush = Brushes.Transparent;          
+            btnChoixMenu2.BorderBrush = Brushes.Transparent;
         }
 
         private void clkTeleverserPiece(object sender, RoutedEventArgs e)
         {
             choixMenu = 2;
             btnChoixMenu2.BorderBrush = Brushes.DarkBlue;
-            btnChoixMenu.BorderBrush = Brushes.Transparent;           
+            btnChoixMenu.BorderBrush = Brushes.Transparent;
         }
     }
 }
