@@ -4,39 +4,17 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
 C:\atelier\Brycol\BRYCOL v0.5\obj\Debug\
-=======
-C:\Brycol\BRYCOL v0.5\obj\Debug\
->>>>>>> 67bc2ab462a06214277178b52b7b8e6f6bfe94e8
 BRYCOL_v0._5
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
 C:\atelier\Brycol\BRYCOL v0.5\App.xaml
-4-1464172866
+91847573530
 
-9-696704245
+141893740313
 13-1505183044
-Vues\Catalogue.xaml;Vues\DimensionPiece.xaml;MainWindow.xaml;Vues\PlanTravail.xaml;
-=======
-<<<<<<< HEAD
-F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de base de données\Brycol\BRYCOL v0.5\App.xaml
-4-1464172866
+Vues\Catalogue.xaml;Vues\DimensionPiece.xaml;MainWindow.xaml;Vues\EcranLstChamBain.xaml;Vues\EcranLstCuisine.xaml;Vues\EcranLstSalleMan.xaml;Vues\EcranLstSalon.xaml;Vues\EcranLtsChamCou.xaml;Vues\PlanTravail.xaml;
 
-9-284456147
-13-1505183044
-Vues\Catalogue.xaml;Vues\DimensionPiece.xaml;MainWindow.xaml;Vues\PlanTravail.xaml;
-=======
-C:\Brycol\BRYCOL v0.5\App.xaml
-5-362890113
->>>>>>> 67bc2ab462a06214277178b52b7b8e6f6bfe94e8
-
-10181666129
-13-1505183044
-Vues\Catalogue.xaml;Vues\DimensionPiece.xaml;MainWindow.xaml;Vues\Enregistrer.xaml;Vues\PlanTravail.xaml;
->>>>>>> e701e9f46200cfaa07cfe61984e04f31f376c4db
-
-False
+True
 

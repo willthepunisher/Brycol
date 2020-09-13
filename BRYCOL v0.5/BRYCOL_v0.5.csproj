@@ -73,6 +73,21 @@
     <Compile Include="Vues\Catalogue.xaml.cs">
       <DependentUpon>Catalogue.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Vues\EcranLstChamBain.xaml.cs">
+      <DependentUpon>EcranLstChamBain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vues\EcranLstCuisine.xaml.cs">
+      <DependentUpon>EcranLstCuisine.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vues\EcranLstSalleMan.xaml.cs">
+      <DependentUpon>EcranLstSalleMan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vues\EcranLstSalon.xaml.cs">
+      <DependentUpon>EcranLstSalon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vues\EcranLtsChamCou.xaml.cs">
+      <DependentUpon>EcranLtsChamCou.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Vues\PlanTravail.xaml.cs">
       <DependentUpon>PlanTravail.xaml</DependentUpon>
     </Compile>
@@ -99,6 +114,26 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Vues\EcranLstChamBain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vues\EcranLstCuisine.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vues\EcranLstSalleMan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vues\EcranLstSalon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vues\EcranLtsChamCou.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Vues\PlanTravail.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -144,6 +179,17 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="images\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\meubles\Bain.jpg" />
+    <Resource Include="images\meubles\Commode.PNG" />
+    <Resource Include="images\meubles\Comptoir.png" />
+    <Resource Include="images\meubles\Etagere.PNG" />
+    <Resource Include="images\meubles\Lamp.jpg" />
+    <Resource Include="images\meubles\Lavabo.PNG" />
+    <Resource Include="images\meubles\Lit.PNG" />
+    <Resource Include="images\meubles\Sofa.PNG" />
+    <Resource Include="images\meubles\Table.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BRYCOL_v0._5.Vues;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,31 @@ namespace BRYCOL_v0._5
         public Catalogue()
         {
             InitializeComponent();
+        }
+
+        private void Coucher_Selected(object sender, RoutedEventArgs e)
+        {
+            presenteurContenu.Content = new EcranLtsChamCou();
+        }
+
+        private void Bain_Selected(object sender, RoutedEventArgs e)
+        {
+            presenteurContenu.Content = new EcranLstChamBain();
+        }
+
+        private void Salon_Selected(object sender, RoutedEventArgs e)
+        {
+            presenteurContenu.Content = new EcranLstSalon();
+        }
+
+        private void Cuisine_Selected(object sender, RoutedEventArgs e)
+        {
+            presenteurContenu.Content = new EcranLstCuisine();
+        }
+
+        private void SalMang_Selected(object sender, RoutedEventArgs e)
+        {
+            presenteurContenu.Content = new EcranLstSalleMan();
         }
     }
 }

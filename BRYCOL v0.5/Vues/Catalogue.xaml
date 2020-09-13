@@ -10,7 +10,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="0.4*"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="0.1*"/>
+            <RowDefinition Height="0.2*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.3*"/>
@@ -32,20 +32,16 @@
        
         <GroupBox Grid.Row="1" Grid.Column="0" Grid.RowSpan="2" Header="Type de pièce">
             <ListBox>
-                <ListBoxItem>Chambre à coucher</ListBoxItem>
-                <ListBoxItem>Chambre de bain</ListBoxItem>
-                <ListBoxItem>Cuisine</ListBoxItem>
-                <ListBoxItem>Salle à manger</ListBoxItem>
+                <ListBoxItem Selected="Coucher_Selected">Chambre à coucher</ListBoxItem>
+                <ListBoxItem Selected="Bain_Selected">Chambre de bain</ListBoxItem>
+                <ListBoxItem Selected="Salon_Selected">Salon</ListBoxItem>
+                <ListBoxItem Selected="Cuisine_Selected">Cuisine</ListBoxItem>
+                <ListBoxItem Selected="SalMang_Selected">Salle à manger</ListBoxItem>
             </ListBox>
-        </GroupBox>
+        </GroupBox> 
 
-        <GroupBox  Grid.Row="1" Grid.Column="1">
-            <ListView>
-                
-            </ListView>
-        </GroupBox>
+        <ContentPresenter Grid.Row="1" Grid.Column="1" Name="presenteurContenu"></ContentPresenter>
 
-        
-        <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Right" Margin="0,0,20,0" Width="78">Ajouter</Button>
+        <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Right" Margin="0,10,20,10" Width="78">Ajouter</Button>
     </Grid>
 </Window>
