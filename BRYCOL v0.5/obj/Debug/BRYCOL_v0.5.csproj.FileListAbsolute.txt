@@ -17,3 +17,22 @@ F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de ba
 F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de base de données\BRYCOL_v0.5\obj\Debug\Vues\PlanTravail.g.cs
 F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de base de données\BRYCOL_v0.5\obj\Debug\Vues\PlanTravail.baml
 F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de base de données\BRYCOL_v0.5\obj\Debug\BRYCOL_v0.5.csprojAssemblyReference.cache
+C:\Brycol\BRYCOL v0.5\bin\Debug\BRYCOL_v0.5.exe.config
+C:\Brycol\BRYCOL v0.5\bin\Debug\BRYCOL_v0.5.exe
+C:\Brycol\BRYCOL v0.5\bin\Debug\BRYCOL_v0.5.pdb
+C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.csprojAssemblyReference.cache
+C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\DimensionPiece.g.cs
+C:\Brycol\BRYCOL v0.5\obj\Debug\MainWindow.g.cs
+C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\PlanTravail.g.cs
+C:\Brycol\BRYCOL v0.5\obj\Debug\App.g.cs
+C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5_MarkupCompile.cache
+C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5_MarkupCompile.lref
+C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\DimensionPiece.baml
+C:\Brycol\BRYCOL v0.5\obj\Debug\MainWindow.baml
+C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\PlanTravail.baml
+C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.g.resources
+C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0._5.Properties.Resources.resources
+C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.csproj.GenerateResource.cache
+C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.csproj.CoreCompileInputs.cache
+C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.exe
+C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.pdb

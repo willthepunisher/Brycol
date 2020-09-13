@@ -1,5 +1,4 @@
 C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL v0.5.csprojAssemblyReference.cache
-C:\Brycol\BRYCOL v0.5\obj\Debug\DimensionPiece.g.cs
 C:\Brycol\BRYCOL v0.5\obj\Debug\MainWindow.g.cs
 C:\Brycol\BRYCOL v0.5\obj\Debug\App.g.cs
 C:\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL v0.5_MarkupCompile.cache
