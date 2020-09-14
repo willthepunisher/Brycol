@@ -22,7 +22,7 @@ namespace BRYCOL_v0._5
     {
         public PlanTravail()
         {
-            InitializeComponent();
+            //InitializeComponent();
         }
     }
 }
