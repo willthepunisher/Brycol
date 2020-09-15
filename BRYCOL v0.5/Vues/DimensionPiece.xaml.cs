@@ -29,7 +29,6 @@ namespace BRYCOL_v0._5
 
         private void clkContinuer(object sender, RoutedEventArgs e)
         {
-
             this.Close();
             MainWindow.grid1.Visibility = Visibility.Collapsed;
             MainWindow.presenteurContenu.Content = new PlanTravail();
