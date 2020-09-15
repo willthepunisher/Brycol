@@ -94,11 +94,11 @@
         </Style>
     </Window.Resources>
 
-    <Grid>
+    <Grid x:Name="grdMainWindow">
 
         <Grid.RowDefinitions>
             <RowDefinition Height="0.4*"></RowDefinition>
-            <RowDefinition></RowDefinition>
+            <RowDefinition x:Name="Row2"></RowDefinition>
         </Grid.RowDefinitions>
         <Border Grid.Row="0" Background="LightGray"></Border>
         <Rectangle Fill="Transparent" Stroke="Black" Margin="76,64,76,91" Grid.Row="1" />
@@ -113,6 +113,9 @@
 
         <!--<Canvas Grid.Row="1" x:Name="canvas" MouseDown="Canvas_MouseDown" MouseMove="Canvas_MouseMove" MouseUp="Canvas_MouseUp" Background="Black" Margin="554,37,30,206" />-->
 
+        <ContentPresenter Grid.Row="0" Grid.RowSpan="2" Name="presenteurContenu"></ContentPresenter>
+
+        
     </Grid>
 </Window>
 

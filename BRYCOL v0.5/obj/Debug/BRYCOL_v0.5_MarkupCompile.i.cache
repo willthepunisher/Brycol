@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Brycol\BRYCOL v0.5\obj\Debug\
+F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de base de données\Brycol\BRYCOL v0.5\obj\Debug\
 BRYCOL_v0._5
 none
 false
 DEBUG;TRACE
-C:\Brycol\BRYCOL v0.5\App.xaml
-10-1346111013
+F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de base de données\Brycol\BRYCOL v0.5\App.xaml
+11-1491434060
 
-15-1522856609
+161318974480
 13-1505183044
-Vues\Catalogue.xaml;Vues\DimensionPiece.xaml;MainWindow.xaml;Vues\EcranLstChamBain.xaml;Vues\EcranLstCuisine.xaml;Vues\EcranLstSalleMan.xaml;Vues\EcranLstSalon.xaml;Vues\EcranLtsChamCou.xaml;Vues\Enregistrer.xaml;Vues\PlanTravail.xaml;
+Vues\Aide.xaml;Vues\Catalogue.xaml;Vues\DimensionPiece.xaml;MainWindow.xaml;Vues\EcranLstChamBain.xaml;Vues\EcranLstCuisine.xaml;Vues\EcranLstSalleMan.xaml;Vues\EcranLstSalon.xaml;Vues\EcranLtsChamCou.xaml;Vues\Enregistrer.xaml;Vues\PlanTravail.xaml;
 
-True
+False
 

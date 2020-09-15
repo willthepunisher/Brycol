@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using BRYCOL_v0._5.Vues;
 
 namespace BRYCOL_v0._5
 {
@@ -19,6 +20,8 @@ namespace BRYCOL_v0._5
     /// </summary>
     public partial class DimensionPiece : Window
     {
+        public MainWindow MainWindow = new MainWindow();
+
         public DimensionPiece()
         {
             InitializeComponent();
@@ -26,6 +29,9 @@ namespace BRYCOL_v0._5
 
         private void clkContinuer(object sender, RoutedEventArgs e)
         {
+            this.Close();
+            MainWindow.grdMainWindow.Visibility = Visibility.Collapsed;
+            MainWindow.presenteurContenu.Content = new PlanTravail();
         }
     }
 }

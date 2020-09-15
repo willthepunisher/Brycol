@@ -27,6 +27,9 @@
         <Button Margin="15,67,168,10" FontSize="20" Background="Transparent" Grid.Row="0" Grid.Column="0">Aide</Button>
         <Button Margin="66,67,86,10" FontSize="20" Background="Transparent" Grid.Row="0" Grid.Column="0">Vue 2D</Button>
         <Button Margin="147,67,5,10" FontSize="20" Background="Transparent" Grid.Row="0" Grid.Column="0">Vue 3D</Button>
+        <Button Grid.Column="1" Margin="0,0,497,52" Background="Transparent">
+            <Image Source="/images/soleil.png" Height="68" Width="74" RenderTransformOrigin="0.569,0.496"></Image>
+        </Button>
         <StackPanel Grid.Row="1" Grid.RowSpan="2" Grid.Column="0">
             <Button Click="clkAjouterMeuble" Height="40"  FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Ajouter Meuble</Button>
             <Button Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Modifier Meuble</Button>
