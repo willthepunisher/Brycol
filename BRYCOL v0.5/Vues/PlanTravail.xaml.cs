@@ -45,8 +45,14 @@ namespace BRYCOL_v0._5.Vues
 
         private void clkAjouterPiece(object sender, RoutedEventArgs e)
         {
-            Button dynamicButton = new Button();
-            panelPieces.Children.Add(dynamicButton);
+            TextBox dynamicTB = new TextBox();
+            panelPieces.Children.Add(dynamicTB);
+        }
+
+        private void clkAide(object sender, RoutedEventArgs e)
+        {
+            Aide popup = new Aide();
+            popup.ShowDialog();
         }
     }
 }

@@ -94,8 +94,7 @@
         </Style>
     </Window.Resources>
 
-    <Grid x:Name="grdMainWindow">
-
+    <Grid Name="grid1">
         <Grid.RowDefinitions>
             <RowDefinition Height="0.4*"></RowDefinition>
             <RowDefinition x:Name="Row2"></RowDefinition>
@@ -112,8 +111,8 @@
         <Button Click="clkContinuer" Grid.Row="1" BorderBrush="Transparent" Content="Continuer" Cursor="Hand" Margin="652,344,30,10" Style="{DynamicResource menuContinuer}" Background="Black" Foreground="White" FontSize="20"></Button>
 
         <!--<Canvas Grid.Row="1" x:Name="canvas" MouseDown="Canvas_MouseDown" MouseMove="Canvas_MouseMove" MouseUp="Canvas_MouseUp" Background="Black" Margin="554,37,30,206" />-->
-
         <ContentPresenter Grid.Row="0" Grid.RowSpan="2" Name="presenteurContenu"></ContentPresenter>
+
 
         
     </Grid>

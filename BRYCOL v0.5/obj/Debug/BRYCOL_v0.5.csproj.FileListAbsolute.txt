@@ -85,6 +85,8 @@ C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\EcranLstCuisine.baml
 C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\EcranLstSalleMan.baml
 C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\EcranLstSalon.baml
 C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\EcranLtsChamCou.baml
+C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\Aide.g.cs
+C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\Aide.baml
 F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de base de données\Brycol\BRYCOL v0.5\bin\Debug\BRYCOL_v0.5.exe.config
 F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de base de données\Brycol\BRYCOL v0.5\bin\Debug\BRYCOL_v0.5.exe
 F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de base de données\Brycol\BRYCOL v0.5\bin\Debug\BRYCOL_v0.5.pdb
@@ -118,5 +120,9 @@ F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de ba
 F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de base de données\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.csproj.CoreCompileInputs.cache
 F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de base de données\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.exe
 F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de base de données\Brycol\BRYCOL v0.5\obj\Debug\BRYCOL_v0.5.pdb
+<<<<<<< HEAD
 F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de base de données\Brycol\BRYCOL v0.5\obj\Debug\Vues\Aide.g.cs
 F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de base de données\Brycol\BRYCOL v0.5\obj\Debug\Vues\Aide.baml
+=======
+>>>>>>> 826a7ceaca9a89918e38fba0af347cf76025dbc2
+>>>>>>> 335967c830840fbeb0c0f503f3d8029150b0fffc
