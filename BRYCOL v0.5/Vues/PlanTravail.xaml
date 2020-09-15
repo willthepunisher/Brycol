@@ -27,7 +27,7 @@
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
-            <TextBlock FontSize="30" Background="Transparent" Text="Nom du projet" Grid.Row="0" Grid.Column="0"></TextBlock>
+            <TextBox FontSize="30" Background="Transparent" Text="Nom du projet" Grid.Row="0" Grid.Column="0"></TextBox>
             <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0">
                     <Button Width="60" Click="clkAide" FontSize="20" Background="Transparent" Grid.Row="0" Grid.Column="0">Aide</Button>
                     <Button Width="80" FontSize="20" Background="Transparent" Grid.Row="0" Grid.Column="0">Vue 2D</Button>
@@ -48,7 +48,6 @@
         <StackPanel Orientation="Horizontal" Name="panelPieces" Grid.Row="1" Grid.Column="1">
             <TextBox Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Nom de la pièce</TextBox>
         </StackPanel>
-        <Border BorderThickness="1" Grid.Row="2" Grid.Column="1"
-            CornerRadius="20,20,20,20" Margin="13,10,15,15" BorderBrush="Black" Background="White"/>
+        <Border BorderThickness="1" Grid.Row="2" Grid.Column="1" CornerRadius="20,20,20,20" Margin="13,10,15,15" BorderBrush="Black" Background="White"/>
     </Grid>
 </UserControl>

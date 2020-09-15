@@ -46,6 +46,9 @@ namespace BRYCOL_v0._5.Vues
         private void clkAjouterPiece(object sender, RoutedEventArgs e)
         {
             TextBox dynamicTB = new TextBox();
+            dynamicTB.Text = "Nouvelle pièce";
+            dynamicTB.Height = 40;
+            dynamicTB.FontSize = 20;
             panelPieces.Children.Add(dynamicTB);
         }
 
