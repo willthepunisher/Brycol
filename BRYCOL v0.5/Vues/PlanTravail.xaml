@@ -21,7 +21,7 @@
             <Rectangle Fill="Transparent" HorizontalAlignment="Left" Height="263" Stroke="Black" VerticalAlignment="Top"/>
         </Border>
 
-        <Image  Source="images/logo.png"  Grid.Row="0" Grid.Column="1" Margin="421,0,10,0"/>
+        <Image  Source="/images/logo.png"  Grid.Row="0" Grid.Column="1" Margin="421,0,10,0"/>
 
         <TextBlock Margin="15,20,15,15" FontSize="30" Background="Transparent" Text="Nom du projet" Grid.Row="0" Grid.Column="0"></TextBlock>
         <Button Margin="15,67,168,10" FontSize="20" Background="Transparent" Grid.Row="0" Grid.Column="0">Aide</Button>
@@ -35,7 +35,7 @@
             <Button Click="clkModifierPiece" Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Modifier Pièce</Button>
             <Button Click="clkEnregistrer" Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Enregistrer</Button>
         </StackPanel>
-        <StackPanel Name="panelPieces" Grid.Row="1" Grid.Column="1">
+        <StackPanel Orientation="Horizontal" Name="panelPieces" Grid.Row="1" Grid.Column="1">
             <Button Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Nom de la pièce</Button>
         </StackPanel>
         <Border BorderThickness="1" Grid.Row="2" Grid.Column="1"

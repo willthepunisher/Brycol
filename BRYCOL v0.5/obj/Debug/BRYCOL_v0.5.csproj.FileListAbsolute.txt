@@ -85,3 +85,5 @@ C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\EcranLstCuisine.baml
 C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\EcranLstSalleMan.baml
 C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\EcranLstSalon.baml
 C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\EcranLtsChamCou.baml
+C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\Aide.g.cs
+C:\Brycol\BRYCOL v0.5\obj\Debug\Vues\Aide.baml

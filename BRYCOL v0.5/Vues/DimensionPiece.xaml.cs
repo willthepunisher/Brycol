@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using BRYCOL_v0._5.Vues;
 
 namespace BRYCOL_v0._5
 {
@@ -26,6 +27,7 @@ namespace BRYCOL_v0._5
 
         private void clkContinuer(object sender, RoutedEventArgs e)
         {
+            this.Hide();
         }
     }
 }

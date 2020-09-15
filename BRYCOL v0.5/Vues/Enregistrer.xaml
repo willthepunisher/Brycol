@@ -103,7 +103,7 @@
         <Border Grid.Row="0" Background="LightGray"></Border>
         <Rectangle Fill="Transparent" Stroke="Black" Margin="76,64,76,91" Grid.Row="1" />
         <Rectangle Fill="Transparent" StrokeThickness="13" Stroke="Black" Width="auto" Grid.RowSpan="2"  Height="auto"  />
-        <Image Grid.Row="0" Source="images/logo.png" Width="140" Margin="326,8,326,398" Grid.RowSpan="2"/>
+        <Image Grid.Row="0" Source="/images/logo.png" Width="140" Margin="326,8,326,398" Grid.RowSpan="2"/>
 
         <Rectangle Fill="Transparent" HorizontalAlignment="Left" Height="263" Stroke="Black" VerticalAlignment="Top"/>
         <Button Grid.Row="1" BorderBrush="Transparent" Content="Enregistrer" Cursor="Hand" Margin="636,332,46,22" Style="{DynamicResource menuContinuer}" Background="Black" Foreground="White" FontSize="20"></Button>

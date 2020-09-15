@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Brycol\BRYCOL v0.5\App.xaml
-10-1346111013
+11-1491434060
 
-15-1522856609
+16906726382
 13-1505183044
-Vues\Catalogue.xaml;Vues\DimensionPiece.xaml;MainWindow.xaml;Vues\EcranLstChamBain.xaml;Vues\EcranLstCuisine.xaml;Vues\EcranLstSalleMan.xaml;Vues\EcranLstSalon.xaml;Vues\EcranLtsChamCou.xaml;Vues\Enregistrer.xaml;Vues\PlanTravail.xaml;
+Vues\Aide.xaml;Vues\Catalogue.xaml;Vues\DimensionPiece.xaml;MainWindow.xaml;Vues\EcranLstChamBain.xaml;Vues\EcranLstCuisine.xaml;Vues\EcranLstSalleMan.xaml;Vues\EcranLstSalon.xaml;Vues\EcranLtsChamCou.xaml;Vues\Enregistrer.xaml;Vues\PlanTravail.xaml;
 
-True
+False
 

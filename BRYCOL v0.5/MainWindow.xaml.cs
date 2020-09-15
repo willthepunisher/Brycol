@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BRYCOL_v0._5.Vues;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -79,6 +80,10 @@ namespace BRYCOL_v0._5
             {
                 DimensionPiece popup = new DimensionPiece();
                 popup.ShowDialog();
+                this.grid1.Children.Clear();
+                this.grid1.Children.Add(presenteurContenu);
+                this.presenteurContenu.Content = new PlanTravail();
+
             }
             else if (choixMenu == 2)
             {
