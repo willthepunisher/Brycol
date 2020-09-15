@@ -12,7 +12,11 @@
             <ListView>
                 <StackPanel Orientation="Horizontal">
                     <ListViewItem Margin="5">
+                        <StackPanel>
                         <Image Source="/images/meubles/Table.png" Height="150" Width="150" />
+                            <TextBlock Text="1500$" HorizontalAlignment="Center" FontSize="15"/>
+
+                        </StackPanel>
                     </ListViewItem>
                 </StackPanel>
             </ListView>

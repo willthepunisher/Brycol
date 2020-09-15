@@ -12,13 +12,22 @@
             <ListView>
                 <StackPanel Orientation="Horizontal">
                     <ListViewItem Margin="5">
-                        <Image Source="/images/meubles/Commode.png" Height="150" Width="150" />
+                        <StackPanel>
+                            <Image Source="/images/meubles/Commode.png" Height="150" Width="150" />
+                            <TextBlock Text="399.99$" HorizontalAlignment="Center" FontSize="15"/>
+                        </StackPanel>
                     </ListViewItem>
                     <ListViewItem Margin="5">
+                        <StackPanel>
                         <Image Source="/images/meubles/Lit.png" Height="150" Width="150" />
+                            <TextBlock Text="2500$" HorizontalAlignment="Center" FontSize="15"/>
+                        </StackPanel>
                     </ListViewItem>
                     <ListViewItem Margin="5">
+                        <StackPanel>
                         <Image Source="/images/meubles/Etagere.png" Height="150" Width="150" />
+                            <TextBlock Text="799$" HorizontalAlignment="Center" FontSize="15"/>
+                        </StackPanel>
                     </ListViewItem>
                 </StackPanel>
             </ListView>

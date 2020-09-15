@@ -49,5 +49,15 @@ namespace BRYCOL_v0._5
         {
             presenteurContenu.Content = new EcranLstSalleMan();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnAjouter(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
