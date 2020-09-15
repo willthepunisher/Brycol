@@ -64,7 +64,7 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <Border Grid.Row="0" Background="LightGray"></Border>
-        <Rectangle Fill="Transparent" StrokeThickness="13" Stroke="Black" Width="auto" Grid.RowSpan="2"  Height="auto"  />
+        <Rectangle Fill="Transparent" StrokeThickness="13" Stroke="Black" Width="auto" Grid.RowSpan="2"  Height="auto"/>
 
         <Image Source="/images/logo.png" Margin="261,6,259,258" Grid.RowSpan="2"/>
 
