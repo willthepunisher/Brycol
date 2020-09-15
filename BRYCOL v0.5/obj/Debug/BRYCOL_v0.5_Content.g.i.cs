@@ -8,14 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/meubles/bain.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/meubles/commode.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/meubles/comptoir.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/meubles/etagere.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/meubles/lamp.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/meubles/lavabo.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/meubles/lit.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/meubles/sofa.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/meubles/table.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/soleil.png")]
 
 

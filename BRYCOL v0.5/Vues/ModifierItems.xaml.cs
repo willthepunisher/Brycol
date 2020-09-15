@@ -11,31 +11,30 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using BRYCOL_v0._5.Vues;
 
-namespace BRYCOL_v0._5
+namespace BRYCOL_v0._5.Vues
 {
     /// <summary>
-    /// Logique d'interaction pour DimensionPiece.xaml
+    /// Logique d'interaction pour ModifierItems.xaml
     /// </summary>
-    public partial class DimensionPiece : Window
+    public partial class ModifierItems : Window
     {
-        public MainWindow MainWindow = new MainWindow();
-
-        public DimensionPiece()
+        public string couleurRGB;
+        public ModifierItems()
         {
             InitializeComponent();
         }
 
+        
+
         private void clkContinuer(object sender, RoutedEventArgs e)
         {
-<<<<<<< HEAD
-            this.Hide();
-=======
             this.Close();
-            MainWindow.grdMainWindow.Visibility = Visibility.Collapsed;
-            MainWindow.presenteurContenu.Content = new PlanTravail();
->>>>>>> 826a7ceaca9a89918e38fba0af347cf76025dbc2
+        }
+
+        private void ClrPcker_Background_SelectedColorChanged(object sender, RoutedPropertyChangedEventArgs<Color?> e)
+        {
+            couleurRGB = ClrPcker_Background.SelectedColor.ToString();
         }
     }
 }

@@ -203,5 +203,8 @@
     <Resource Include="images\meubles\Sofa.PNG" />
     <Resource Include="images\meubles\Table.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\soleil.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
