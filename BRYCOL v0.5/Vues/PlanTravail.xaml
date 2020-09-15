@@ -22,13 +22,20 @@
         </Border>
 
         <Image  Source="/images/logo.png"  Grid.Row="0" Grid.Column="1" Margin="421,0,10,0"/>
-
-        <TextBlock Margin="15,20,15,15" FontSize="30" Background="Transparent" Text="Nom du projet" Grid.Row="0" Grid.Column="0"></TextBlock>
-        <Button Margin="15,67,168,10" FontSize="20" Background="Transparent" Grid.Row="0" Grid.Column="0">Aide</Button>
-        <Button Margin="66,67,86,10" FontSize="20" Background="Transparent" Grid.Row="0" Grid.Column="0">Vue 2D</Button>
-        <Button Margin="147,67,5,10" FontSize="20" Background="Transparent" Grid.Row="0" Grid.Column="0">Vue 3D</Button>
+        <Grid Grid.Row="0" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock FontSize="30" Background="Transparent" Text="Nom du projet" Grid.Row="0" Grid.Column="0"></TextBlock>
+            <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0">
+                    <Button Width="60" Click="clkAide" FontSize="20" Background="Transparent" Grid.Row="0" Grid.Column="0">Aide</Button>
+                    <Button Width="80" FontSize="20" Background="Transparent" Grid.Row="0" Grid.Column="0">Vue 2D</Button>
+                    <Button Width="80" FontSize="20" Background="Transparent" Grid.Row="0" Grid.Column="0">Vue 3D</Button>
+            </StackPanel>
+        </Grid>
         <Button Grid.Column="1" Margin="0,0,497,52" Background="Transparent">
-            <Image Source="/images/soleil.png" Height="68" Width="74" RenderTransformOrigin="0.569,0.496"></Image>
+                <Image Source="/images/soleil.png" Height="68" Width="74" RenderTransformOrigin="0.569,0.496"></Image>
         </Button>
         <StackPanel Grid.Row="1" Grid.RowSpan="2" Grid.Column="0">
             <Button Click="clkAjouterMeuble" Height="40"  FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Ajouter Meuble</Button>
@@ -39,7 +46,7 @@
             <Button Click="clkEnregistrer" Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Enregistrer</Button>
         </StackPanel>
         <StackPanel Orientation="Horizontal" Name="panelPieces" Grid.Row="1" Grid.Column="1">
-            <Button Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Nom de la pièce</Button>
+            <TextBox Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Nom de la pièce</TextBox>
         </StackPanel>
         <Border BorderThickness="1" Grid.Row="2" Grid.Column="1"
             CornerRadius="20,20,20,20" Margin="13,10,15,15" BorderBrush="Black" Background="White"/>

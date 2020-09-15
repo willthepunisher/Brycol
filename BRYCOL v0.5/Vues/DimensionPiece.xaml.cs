@@ -29,13 +29,10 @@ namespace BRYCOL_v0._5
 
         private void clkContinuer(object sender, RoutedEventArgs e)
         {
-<<<<<<< HEAD
-            this.Hide();
-=======
+
             this.Close();
-            MainWindow.grdMainWindow.Visibility = Visibility.Collapsed;
+            MainWindow.grid1.Visibility = Visibility.Collapsed;
             MainWindow.presenteurContenu.Content = new PlanTravail();
->>>>>>> 826a7ceaca9a89918e38fba0af347cf76025dbc2
         }
     }
 }
