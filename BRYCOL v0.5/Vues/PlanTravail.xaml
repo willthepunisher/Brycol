@@ -8,8 +8,9 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="0.3*"></RowDefinition>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="15*"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="35*"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.4*"></ColumnDefinition>
@@ -20,21 +21,24 @@
             <Rectangle Fill="Transparent" HorizontalAlignment="Left" Height="263" Stroke="Black" VerticalAlignment="Top"/>
         </Border>
 
-        <Image  Source="images/logo.png" Width="140"  Grid.Row="0" Grid.Column="1" Margin="421,0,10,0"/>
+        <Image  Source="images/logo.png"  Grid.Row="0" Grid.Column="1" Margin="421,0,10,0"/>
 
         <TextBlock Margin="15,20,15,15" FontSize="30" Background="Transparent" Text="Nom du projet" Grid.Row="0" Grid.Column="0"></TextBlock>
         <Button Margin="15,67,168,10" FontSize="20" Background="Transparent" Grid.Row="0" Grid.Column="0">Aide</Button>
-        <StackPanel Grid.Row="1" Grid.Column="0">
-            <Button Height="40"  FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Ajouter Meuble</Button>
+        <Button Margin="66,67,86,10" FontSize="20" Background="Transparent" Grid.Row="0" Grid.Column="0">Vue 2D</Button>
+        <Button Margin="147,67,5,10" FontSize="20" Background="Transparent" Grid.Row="0" Grid.Column="0">Vue 3D</Button>
+        <StackPanel Grid.Row="1" Grid.RowSpan="2" Grid.Column="0">
+            <Button Click="clkAjouterMeuble" Height="40"  FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Ajouter Meuble</Button>
             <Button Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Modifier Meuble</Button>
             <Button Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Supprimer Meuble</Button>
-            <Button Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Modifier Pièce</Button>
-            <Button Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Enregistrer</Button>
+            <Button Click="clkAjouterPiece" Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Ajouter Pièce</Button>
+            <Button Click="clkModifierPiece" Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Modifier Pièce</Button>
+            <Button Click="clkEnregistrer" Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Enregistrer</Button>
         </StackPanel>
-
-        <Border BorderThickness="1" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"
-            CornerRadius="20,20,20,20" Margin="15,15,15,15" BorderBrush="Black" Background="White">
-        </Border>
-
+        <StackPanel Name="panelPieces" Grid.Row="1" Grid.Column="1">
+            <Button Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Nom de la pièce</Button>
+        </StackPanel>
+        <Border BorderThickness="1" Grid.Row="2" Grid.Column="1"
+            CornerRadius="20,20,20,20" Margin="13,10,15,15" BorderBrush="Black" Background="White"/>
     </Grid>
 </UserControl>

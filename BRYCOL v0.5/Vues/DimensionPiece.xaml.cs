@@ -26,7 +26,6 @@ namespace BRYCOL_v0._5
 
         private void clkContinuer(object sender, RoutedEventArgs e)
         {
-
         }
     }
 }

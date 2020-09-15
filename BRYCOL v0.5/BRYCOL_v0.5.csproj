@@ -73,7 +73,6 @@
     <Compile Include="Vues\Catalogue.xaml.cs">
       <DependentUpon>Catalogue.xaml</DependentUpon>
     </Compile>
-
     <Compile Include="Vues\EcranLstChamBain.xaml.cs">
       <DependentUpon>EcranLstChamBain.xaml</DependentUpon>
     </Compile>
@@ -134,7 +133,8 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Vues\EcranLtsChamCou.xaml"></Page>
+    <Page Include="Vues\EcranLtsChamCou.xaml">
+    </Page>
     <Page Include="Vues\Enregistrer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

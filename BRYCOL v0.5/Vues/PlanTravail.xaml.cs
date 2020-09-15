@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace BRYCOL_v0._5
+namespace BRYCOL_v0._5.Vues
 {
     /// <summary>
     /// Logique d'interaction pour PlanTravail.xaml
@@ -22,7 +22,31 @@ namespace BRYCOL_v0._5
     {
         public PlanTravail()
         {
-            //InitializeComponent();
+            InitializeComponent();
+        }
+
+        private void clkModifierPiece(object sender, RoutedEventArgs e)
+        {
+            DimensionPiece popup = new DimensionPiece();
+            popup.ShowDialog();
+        }
+
+        private void clkEnregistrer(object sender, RoutedEventArgs e)
+        {
+            Enregistrer popup = new Enregistrer();
+            popup.ShowDialog();
+        }
+
+        private void clkAjouterMeuble(object sender, RoutedEventArgs e)
+        {
+            Catalogue popup = new Catalogue();
+            popup.ShowDialog();
+        }
+
+        private void clkAjouterPiece(object sender, RoutedEventArgs e)
+        {
+            Button dynamicButton = new Button();
+            panelPieces.Children.Add(dynamicButton);
         }
     }
 }
