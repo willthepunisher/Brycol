@@ -9,12 +9,21 @@ BRYCOL_v0._5
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de base de données\Brycol\BRYCOL v0.5\App.xaml
 11-1491434060
 
 161318974480
 13-1505183044
 Vues\Aide.xaml;Vues\Catalogue.xaml;Vues\DimensionPiece.xaml;MainWindow.xaml;Vues\EcranLstChamBain.xaml;Vues\EcranLstCuisine.xaml;Vues\EcranLstSalleMan.xaml;Vues\EcranLstSalon.xaml;Vues\EcranLtsChamCou.xaml;Vues\Enregistrer.xaml;Vues\PlanTravail.xaml;
+=======
+C:\Brycol\BRYCOL v0.5\App.xaml
+12-724387521
+
+17171106681
+18-48131170
+Vues\Aide.xaml;Vues\Catalogue.xaml;Vues\DimensionPiece.xaml;MainWindow.xaml;Vues\EcranLstChamBain.xaml;Vues\EcranLstCuisine.xaml;Vues\EcranLstSalleMan.xaml;Vues\EcranLstSalon.xaml;Vues\EcranLtsChamCou.xaml;Vues\Enregistrer.xaml;Vues\ModifierItems.xaml;Vues\PlanTravail.xaml;
+>>>>>>> bb6c9a98ed854d596dd2552c1eb9ad76cd9b8161
 
 False
 
