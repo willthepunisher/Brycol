@@ -57,5 +57,11 @@ namespace BRYCOL_v0._5.Vues
             Aide popup = new Aide();
             popup.ShowDialog();
         }
+
+        private void clkModifierMeuble(object sender, RoutedEventArgs e)
+        {
+            ModifierItems popup = new ModifierItems();
+            popup.ShowDialog();
+        }
     }
 }

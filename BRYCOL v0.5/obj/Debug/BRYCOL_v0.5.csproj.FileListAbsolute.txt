@@ -123,9 +123,7 @@ F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de ba
 F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de base de données\Brycol\BRYCOL v0.5\obj\Debug\Vues\Aide.g.cs
 F:\Users\Yannick\Desktop\Cégep\Automne 2020\Développement d'applications de base de données\Brycol\BRYCOL v0.5\obj\Debug\Vues\Aide.baml
 >>>>>>> 826a7ceaca9a89918e38fba0af347cf76025dbc2
-<<<<<<< HEAD
 >>>>>>> 335967c830840fbeb0c0f503f3d8029150b0fffc
-=======
 C:\Brycol\BRYCOL v0.5\bin\Debug\Xceed.Wpf.AvalonDock.dll
 C:\Brycol\BRYCOL v0.5\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
 C:\Brycol\BRYCOL v0.5\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll

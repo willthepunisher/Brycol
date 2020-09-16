@@ -39,7 +39,7 @@
         </Button>
         <StackPanel Grid.Row="1" Grid.RowSpan="2" Grid.Column="0">
             <Button Click="clkAjouterMeuble" Height="40"  FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Ajouter Meuble</Button>
-            <Button Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Modifier Meuble</Button>
+            <Button Click="clkModifierMeuble" Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Modifier Meuble</Button>
             <Button Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Supprimer Meuble</Button>
             <Button Click="clkAjouterPiece" Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Ajouter Pièce</Button>
             <Button Click="clkModifierPiece" Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Modifier Pièce</Button>

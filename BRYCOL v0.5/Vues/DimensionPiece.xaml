@@ -63,15 +63,19 @@
             <RowDefinition Height="0.4*"></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
+       
         <Border Grid.Row="0" Background="LightGray"></Border>
         <Rectangle Fill="Transparent" StrokeThickness="13" Stroke="Black" Width="auto" Grid.RowSpan="2"  Height="auto"/>
-
-        <Image Source="/images/logo.png" Margin="261,6,259,258" Grid.RowSpan="2"/>
+        <Image Source="/images/logo.png" VerticalAlignment="Center" Width="100" />
+        
+        <!--<Rectangle Fill="Transparent" Stroke="Black" Margin="76,64,76,91" Grid.Row="1" />
+        <Image Grid.Row="0" Source="images/logo.png" Width="140"  VerticalAlignment="Top" HorizontalAlignment="Center" />-->
 
         <Rectangle Fill="Transparent" Stroke="Black" Margin="76,43,76,54" Grid.Row="1" />
 
         <Rectangle Fill="Transparent" HorizontalAlignment="Left" Height="263" Stroke="Black" VerticalAlignment="Top"/>
-        <Button Click="clkContinuer" Grid.Row="1" BorderBrush="Transparent" Content="Continuer" Cursor="Hand"  Style="{DynamicResource menuContinuer}" Background="Black" Foreground="White" FontSize="13" Margin="493,221,23,11"></Button>
+        <Button Margin="25" Click="clkContinuer" Grid.Row="1" BorderBrush="Transparent" Content="Continuer" Cursor="Hand"  Style="{DynamicResource menuContinuer}" Background="Black" Foreground="White" FontSize="13" VerticalAlignment="Bottom" HorizontalAlignment="Right"></Button>
+
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Options principaux" VerticalAlignment="Top" Margin="76,27,0,0" Grid.Row="1"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Unité de mesure" VerticalAlignment="Top" Margin="136,80,0,0" Grid.Row="1"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="136,115,0,0" Grid.Row="1" Width="121" Height="16"><Run Text="Longueur de la pi"/><Run Text="èce"/><LineBreak/><Run/></TextBlock>
