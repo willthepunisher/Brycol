@@ -112,6 +112,9 @@
     <Compile Include="Vues\Enregistrer.xaml.cs">
       <DependentUpon>Enregistrer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Vues\Facture.xaml.cs">
+      <DependentUpon>Facture.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Vues\ModifierItems.xaml.cs">
       <DependentUpon>ModifierItems.xaml</DependentUpon>
     </Compile>
@@ -164,6 +167,10 @@
     <Page Include="Vues\EcranLtsChamCou.xaml">
     </Page>
     <Page Include="Vues\Enregistrer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vues\Facture.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

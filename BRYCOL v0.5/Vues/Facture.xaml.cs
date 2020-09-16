@@ -12,19 +12,19 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace BRYCOL_v0._5
+namespace BRYCOL_v0._5.Vues
 {
     /// <summary>
-    /// Logique d'interaction pour Enregistrer.xaml
+    /// Logique d'interaction pour Facture.xaml
     /// </summary>
-    public partial class Enregistrer : Window
+    public partial class Facture : Window
     {
-        public Enregistrer()
+        public Facture()
         {
             InitializeComponent();
         }
 
-        private void cmdContinuer(object sender, RoutedEventArgs e)
+        private void BtnContinuer(object sender, RoutedEventArgs e)
         {
             this.Close();
         }

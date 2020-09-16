@@ -43,6 +43,7 @@
             <Button Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Supprimer Meuble</Button>
             <Button Click="clkAjouterPiece" Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Ajouter Pièce</Button>
             <Button Click="clkModifierPiece" Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Modifier Pièce</Button>
+            <Button Click="clkFacture" Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Coût Rénovations</Button>
             <Button Click="clkEnregistrer" Height="40" FontSize="20" Background="Transparent" Grid.Row="1" Grid.Column="0">Enregistrer</Button>
         </StackPanel>
         <StackPanel Orientation="Horizontal" Name="panelPieces" Grid.Row="1" Grid.Column="1">
