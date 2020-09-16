@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:BRYCOL_v0._5.Vues"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         mc:Ignorable="d"
-        Title="ModifierItems" Height="447.783" Width="670.32">
+        Title="ModifierItems" Height="447.783" Width="670.32"
+        ResizeMode="NoResize"
+        >
 
 
     <Window.Resources>
@@ -65,7 +67,8 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Rectangle Fill="Transparent" Stroke="Black" Margin="76,43,76,54" Grid.Row="1" />
-        <xctk:ColorPicker Name="ClrPcker_Background" SelectedColorChanged="ClrPcker_Background_SelectedColorChanged" Margin="341,183,274,87" Grid.Row="1" RenderTransformOrigin="0.5,0.5">
+        <Rectangle Fill="Transparent" StrokeThickness="13" Stroke="Black" Width="auto" Grid.RowSpan="2"  Height="auto"  />
+        <xctk:ColorPicker Name="ClrPcker_Background" SelectedColorChanged="ClrPcker_Background_SelectedColorChanged" Margin="344,177,271,93" Grid.Row="1" RenderTransformOrigin="0.5,0.5">
             <xctk:ColorPicker.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -77,7 +80,6 @@
         </xctk:ColorPicker>
         
         <Border Grid.Row="0" Background="LightGray"/>
-        <Rectangle Fill="Transparent" StrokeThickness="13" Stroke="Black" Width="auto" Grid.RowSpan="2"  Height="auto"  />
         
         <Image Source="/images/logo.png" Margin="546,29,23,10"/>
 
@@ -89,10 +91,7 @@
         <TextBlock FontSize="30" FontWeight="Bold" Margin="78,48,217,17" Text="Modifier un item"/>
         <Image Source="/images/meubles/Bain.jpg" Margin="360,64,178,140" Grid.Row="1" />
         <TextBlock FontSize="16" FontWeight="Bold" Margin="132,99,307,166" Text="Bain contemporain" Grid.Row="1"/>
-        <TextBlock FontSize="16" FontWeight="Bold" Margin="132,185,335,92" Grid.Row="1"><Run Text="Sélection d'une couleur"/><Run Text=" :"/></TextBlock>
-
-
-        <!--<Canvas Grid.Row="1" x:Name="canvas" MouseDown="Canvas_MouseDown" MouseMove="Canvas_MouseMove" MouseUp="Canvas_MouseUp" Background="Black" Margin="554,37,30,206" />-->
+        <TextBlock FontSize="16" FontWeight="Bold" Margin="132,182,335,83" Grid.Row="1" Text="Sélection d'une couleur :"></TextBlock>
 
     </Grid>
 </Window>

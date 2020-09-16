@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BRYCOL_v0._5"
         mc:Ignorable="d"
-        Title="Enregistrer" Height="600" Width="800">
+        Title="Enregistrer" Height="600" Width="800"
+        ResizeMode="NoResize">
 
     <Window.Resources>
         <ImageBrush x:Key="facebook_icon" ImageSource="images/logo.png" Stretch="None"/>
