@@ -63,5 +63,11 @@ namespace BRYCOL_v0._5.Vues
             ModifierItems popup = new ModifierItems();
             popup.ShowDialog();
         }
+
+        private void clkFacture(object sender, RoutedEventArgs e)
+        {
+            Facture popup = new Facture();
+            popup.ShowDialog();
+        }
     }
 }

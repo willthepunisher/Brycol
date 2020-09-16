@@ -107,7 +107,7 @@
         <Image Grid.Row="0" Source="/images/logo.png" Width="140" Margin="326,8,326,398" Grid.RowSpan="2"/>
 
         <Rectangle Fill="Transparent" HorizontalAlignment="Left" Height="263" Stroke="Black" VerticalAlignment="Top"/>
-        <Button Grid.Row="1" BorderBrush="Transparent" Content="Enregistrer" Cursor="Hand" Margin="636,332,46,22" Style="{DynamicResource menuContinuer}" Background="Black" Foreground="White" FontSize="20"></Button>
+        <Button Grid.Row="1" BorderBrush="Transparent" Content="Enregistrer" Cursor="Hand" Margin="636,332,46,22" Style="{DynamicResource menuContinuer}" Background="Black" Foreground="White" FontSize="20" Click="cmdContinuer"></Button>
         <Label Content="Nom du projet: " HorizontalAlignment="Left" Margin="100,90,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="24"/>
         <TextBox Margin="286,93,146,274" Grid.Row="1"></TextBox>
         <Label Content="Emplacement: " HorizontalAlignment="Left" Margin="100,168,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="24"/>
